@@ -11,3 +11,7 @@
 
 - `pipenv install packagename`
 - ex pipenv install django
+
+### Before pushing to staging or production we need to add new packages to requirements.txt so it will run properly when deployed
+
+`pipenv run pip freeze > requirements.txt`
