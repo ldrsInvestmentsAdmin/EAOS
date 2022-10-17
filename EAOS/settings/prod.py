@@ -9,4 +9,4 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://ldrs-eaos-production.up.railway.app/']
+ALLOWED_HOSTS = ['ldrs-eaos-production.up.railway.app']
