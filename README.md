@@ -32,7 +32,7 @@ Make a pull request to main from staging. If everything has been tested on stagi
 
 ## [Staging Environment](https://ldrs-eaos-staging.up.railway.app/)
 
-Production watches the [staging branch]().
+Production watches the [staging branch](https://github.com/ldrsInvestmentsAdmin/EAOS/tree/staging).
 <br>
 Make a pull request to staging from your feature branch and upon testing (on PR environment) and review you can merge your changes. This branch is mostly used for demoing.
 
