@@ -8,6 +8,9 @@ django = "*"
 gunicorn = "*"
 psycopg2 = "*"
 djangorestframework = "*"
+autopep8 = "*"
+pylint = "*"
+pylint-django = "*"
 
 [dev-packages]
 
