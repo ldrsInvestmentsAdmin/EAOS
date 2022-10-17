@@ -5,6 +5,10 @@
 1. Open terminal
 2. `pipenv shell`
 3. `pipenv install` - To install all necessary packages from pipfile
+
+   - If you have trouble installing psycopg2 when running the install command
+     `sudo apt install libpq-dev python3-dev`
+
 4. `python manage.py runserver`
 
 ## To install new packages
