@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, component } from "react";
 import { render } from "react-dom";
 
 export default class App extends Component {
