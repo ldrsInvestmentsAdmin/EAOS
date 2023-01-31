@@ -1,0 +1,101 @@
+.generateWidget {
+    border-radius: 50%;
+    border: 0px;
+    font-size: 30px;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+  
+  .generateWidget:hover {
+    text-align: center;
+    color: white;
+    background-color: darkcyan;
+  }
+  
+  .featuredParent {
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  
+  .generateWidget {
+    margin-bottom: 20px;
+  }
+  
+  .addWidgetIcon {
+    color: darkcyan;
+    float: inline-end;
+    align-items: center;
+    border-radius: 10px;
+    align-self: auto;
+  }
+  
+  .featuredItem {
+    min-width: 200px;
+    max-width:350px;
+    /*  Use this to increase height of widget box 
+    min-height:500px; */
+    flex-grow: 1;
+    margin: 20px 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px -10px rgb(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgb(0, 0, 0, 0.75);
+  }
+  
+  #featuredItem {
+    flex: 1;
+    margin: 0px 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px -10px rgb(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgb(0, 0, 0, 0.75);
+  }
+  
+  .featuredTitle {
+    font-size: 20px;
+  }
+  
+  .featuredWeatherContainer {
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .featuredTemperature {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    margin-right: 5px;
+    color: darkcyan;
+  }
+  
+  .featuredIcon {
+    font-size: 30px;
+    float: inline-end;
+    align-items: center;
+    border-radius: 10px;
+    color: darkcyan;
+  }
+  
+  .cancelIcon {
+    font-size: 30px;
+    float: right;
+    align-items: center;
+    border-radius: 10px;
+    color: grey;
+  }
+  
+  .cancelIcon:hover {
+    color: darkcyan;
+  }
+  
+  .plus {
+    font-size: 20px;
+  }
